@@ -1,0 +1,69 @@
+/* PHASE 3: Layout */
+.content{
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.content-sidebar{
+  width: 30%;
+  border: 1px solid #ccc;
+  padding: 5px;
+  min-height: 200px;
+  background: #fff;
+}
+
+.content-main{
+  width: 70%;
+  border: 1px solid #ccc;
+  padding: 5px;
+  min-height: 200px;
+  background: #fff;
+  border-left: none;
+}
+
+
+.footer{
+  /* display: flex; */
+  margin: 0 auto;
+  width: 900px;
+  border-top: none;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.right_footer{
+  float: left;
+  width: 526px;
+  min-height: 20px;
+  padding: 18px;
+  background: #fff;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: right;
+}
+
+.left_footer {
+  float: left;
+  width: 300px;
+  min-height: 20px;
+  padding: 18px;
+  background: #fff;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-left: 18px;
+}
+
+.left_footer p {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.right_footer li {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #aaa;
+  display: inline-block;
+  margin-left: 15px;
+}
